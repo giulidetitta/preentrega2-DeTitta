@@ -1,0 +1,408 @@
+/* reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+/* pagina de inicio */
+
+header {
+    background-color: gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+header h1 {
+    font-size: 80px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color:black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+header nav ul li a:hover  {
+    color: white;
+    /* font weight, es para darle mas ancho a las letras */
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header nav ul li {
+    font-size: x-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* main */
+
+.hero{
+    background-image: url(../tp-1/media/2023-lucid-air-1.jpg);
+    width: 100%;
+    height:800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero h2{
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(255, 255, 255, 0.453);
+    border:1px solid rgb(0, 0, 0) ;
+    text-align: center;
+    padding: 30px;
+}
+
+.hero h4 {
+    color: yellow;
+    margin-top:470px ;
+    width: 1000px;
+    text-align: center;
+    font-family: cursive;
+    font-size: x-large;
+    margin-left: 200px;
+
+}
+
+/* footter de index */
+
+.finish {
+    background-color: gold;
+    height: 200;
+    margin-top: 430px;
+    height: 80px;
+}
+
+.finish img {
+    padding: 20px;
+    width: 70px;
+    border-radius:10px;
+}
+
+.horarios {
+    margin-left: 300px;
+    margin-top: -50px;
+    
+}
+
+/* seccion nosotros */
+
+main {
+    width: 100%;
+    height: 370px;
+}
+
+.cien {
+    margin-top: 100px;
+    padding: 15px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ciento1 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+main .card:hover {
+    /* arriba, derecha, abajo */
+    text-shadow: o 4px 8px rgba(0, 0 ,0 , 0,1);
+}
+
+main .cien img {
+    width: 420px;
+    height: 300px;
+    margin-right: 40px;
+    border: 4px solid black;
+}
+
+
+
+/* boostraps */
+
+.img-propia {
+    width: 100%;
+    height: 600px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.nosotros {
+    margin-top: 300px;
+}
+
+.historia {
+    margin-top: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 20px;
+}
+
+
+/* ubicacion */
+
+
+.UBICACION {
+    background-image: url(../tp-1/media/consecionario\ principal.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.acomodar {
+    width: 1200px;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.acomodar1 {
+    margin-top: -100px;
+    margin-left: 10px;
+}
+
+
+
+.ubicacion1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.ubicacion1 img {
+    border: 2px solid black;
+    width: 620px;
+    height: 450px;
+    margin-right: 25px;
+    margin-left: 20px;
+    margin-top: -100px;
+
+}
+
+
+
+
+/* footer de auto iconicos */
+
+.final {
+    background-color: gold;
+    padding: 20px;
+}
+
+
+
+/* diseñamos el grid de la seccion autos iconicos */
+
+.caja {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 220px;
+    gap: 10px;
+    margin: 0%;
+    padding: 15px;
+    width: 100%;
+    margin: 0%;
+    height: 1000px;
+}
+
+.area1 {
+    text-align: center;
+    grid-row: 1/ span 3;
+    grid-column: 1/ span 2;
+} 
+
+.area1 img{
+    width: 873px;
+    height: 672px;
+    border: 4px solid black;
+}
+
+.area2{
+    text-align: center;
+    grid-row: 1/span 3;
+}
+
+.area2 img{
+    width: 427px;
+    height: 672px;
+    border: 4px solid black;
+}
+
+
+.porche{
+    text-shadow: 4px 5px 4px yellow;
+    width: 750px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.bmw {
+    text-shadow:  4px 5px 4px yellow;
+    margin-top: 15px;
+
+}        
+
+/* footer de auto iconicos */
+
+.final {
+    background-color: gold;
+    padding: 20px;
+}
+
+
+/* seccion marcas */
+
+.main1 {
+    width: 100%;
+    height: 3000px;
+    background-color: #f4ff91;
+}
+
+.marcas {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+/* HONDA */
+
+.honda {
+    display:flex;
+    justify-content: space-around;
+}
+
+.hon {
+    margin-left: 20px;
+    margin-top: 100px;
+
+}
+
+.HONDA img {
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border: 4px solid black;
+}
+
+/* TOYOTA */
+
+.toyota {
+    display: flex;
+    justify-content: space-around;
+}
+
+.toyota img {
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left:9px;
+    border: 4px solid black;
+}
+
+.toyo {
+    margin-top: 100PX;
+}
+
+/* BENTLEY */
+
+.bentley {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bentley img{
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left:9px;
+    border: 4px solid black;
+}
+
+.bent {
+    margin-top: 100px;
+}
+
+
+
+/* footter */
+
+.footer {
+    background-color:gold;
+    height: 60px;
+}
+
+
+
+/* diseño responsive */
+
+@media (max-width: 768px) {
+
+    header{
+        flex-direction: column;
+    }
+    header nav ul li a{
+        display: flex;
+        flex-direction: column;
+    }
+    .main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 150px);
+        grid-template-areas:
+        "area1 area2"
+        "area3 area4"
+        "area5 area6"
+        "area7 area8"
+        "area9"
+        
+        }
+    .hero{
+        height: 1200px;
+    }
+    .hero div h4{
+        width: 500px;
+        margin-bottom: 150px;
+    }
+    .finish{
+        margin-top: 800px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
