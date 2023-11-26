@@ -390,6 +390,11 @@ main .cien img {
     .hero div h4{
         width: 500px;
         margin-bottom: 150px;
+        }
+    
+        .ciento2 .cien img {
+            width: 200px;
+            height: 150px;
     }
     .finish{
         margin-top: 800px;
