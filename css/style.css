@@ -104,10 +104,6 @@ header nav ul li {
 
 /* seccion nosotros */
 
-main {
-    width: 100%;
-    height: 370px;
-}
 
 .cien {
     margin-top: 100px;
@@ -115,31 +111,41 @@ main {
     margin-left: 40px;
     display: flex;
     justify-content: space-around;
+    width: 100%;
+}
+
+
+
+.ciento2 {
+    width: 100%;
+    height: 2000px;
 }
 
 .ciento1 {
-    margin-top: 50px;
+    margin-top: 0px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
 }
 
-
-
-main .card:hover {
+.ciento2 .card:hover {
     /* arriba, derecha, abajo */
     text-shadow: o 4px 8px rgba(0, 0 ,0 , 0,1);
 }
 
-main .cien img {
+.ciento2 .cien img {
     width: 420px;
     height: 300px;
     margin-right: 40px;
     border: 4px solid black;
+    margin-top: 200px;
 }
 
 
 
 /* boostraps */
+
+
 
 .img-propia {
     width: 100%;
@@ -150,6 +156,17 @@ main .cien img {
 
 .nosotros {
     margin-top: 300px;
+    margin-left: -100px;
+    color:black;
+    font-size: 80px;
+}
+
+.parrafo {
+    color:black;
+    font-size: 30px;
+    margin-left: -100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
 }
 
 .historia {
@@ -177,15 +194,24 @@ main .cien img {
 }
 
 .acomodar {
-    width: 1200px;
+    width: 1600px;
     text-align: center;
-    margin-left: 70px;
+    margin-left: 50px;
     margin-top: -50px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    color: black;
+    text-decoration: underline;
 }
 
 .acomodar1 {
     margin-top: -100px;
     margin-left: 10px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    color: black;
 }
 
 
@@ -283,13 +309,14 @@ main .cien img {
 .main1 {
     width: 100%;
     height: 3000px;
-    background-color: #f4ff91;
+    background-image: url(../tp-1/media/marcas\ de\ autos.jpg);
 }
 
 .marcas {
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    color:red;
 }
 
 /* HONDA */
@@ -302,6 +329,8 @@ main .cien img {
 .hon {
     margin-left: 20px;
     margin-top: 100px;
+    color: red;
+    font-size: 50px;
 
 }
 
@@ -309,8 +338,9 @@ main .cien img {
     width: 400px;
     height: 300px;
     margin-top: 50px;
-    margin-left: 30px;
-    border: 4px solid black;
+    margin-left: 80px;
+    border: 8px solid black;
+    margin-right: 78px;
 }
 
 /* TOYOTA */
@@ -325,11 +355,14 @@ main .cien img {
     height: 300px;
     margin-top: 50px;
     margin-left:9px;
-    border: 4px solid black;
+    border: 8px solid black;
 }
 
 .toyo {
     margin-top: 100PX;
+    color: red;
+    font-size: 50px;
+    margin-left: 20px;
 }
 
 /* BENTLEY */
@@ -344,11 +377,14 @@ main .cien img {
     height: 300px;
     margin-top: 50px;
     margin-left:9px;
-    border: 4px solid black;
+    border: 8px solid black;
 }
 
 .bent {
     margin-top: 100px;
+    color: red;
+    font-size: 50px;
+    margin-left: 20px;
 }
 
 
