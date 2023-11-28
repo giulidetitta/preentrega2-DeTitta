@@ -85,9 +85,7 @@ header nav ul li {
 
 .finish {
     background-color: gold;
-    height: 200;
-    margin-top: 430px;
-    height: 80px;
+    height: 100px;
 }
 
 .finish img {
@@ -112,13 +110,19 @@ header nav ul li {
     display: flex;
     justify-content: space-around;
     width: 100%;
+
 }
 
 
 
 .ciento2 {
     width: 100%;
-    height: 2000px;
+    height: 2500px;
+    background-image: url(../tp-1/media/fondo\ 2.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 }
 
 .ciento1 {
@@ -180,24 +184,22 @@ header nav ul li {
 
 
 .UBICACION {
-    background-image: url(../tp-1/media/consecionario\ principal.jpg);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     width: 100%;
-    height: 1000px;
-    background-size: cover;
+    height: 2000px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../tp-1/media/fondo\ 4.avif);
     background-repeat: no-repeat;
     background-position: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
+    background-size: cover;
+    margin-top: -50px;
+    }
 
-.acomodar {
+
+    .acomodar {
     width: 1600px;
     text-align: center;
     margin-left: 50px;
-    margin-top: -50px;
+    margin-top: 50px;
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 5px;
@@ -206,7 +208,7 @@ header nav ul li {
 }
 
 .acomodar1 {
-    margin-top: -100px;
+    margin-top: 100px;
     margin-left: 10px;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -220,8 +222,9 @@ header nav ul li {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    margin-top: 500px;
 }
+
 
 .ubicacion1 img {
     border: 2px solid black;
@@ -229,7 +232,7 @@ header nav ul li {
     height: 450px;
     margin-right: 25px;
     margin-left: 20px;
-    margin-top: -100px;
+    margin-top: -300px;
 
 }
 
@@ -256,7 +259,11 @@ header nav ul li {
     padding: 15px;
     width: 100%;
     margin: 0%;
-    height: 1000px;
+    height: 1100px;
+    background-image: url(../tp-1/media/fondo\ racing.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .area1 {
@@ -287,12 +294,14 @@ header nav ul li {
     text-shadow: 4px 5px 4px yellow;
     width: 750px;
     margin-top: 15px;
-    margin-left: 50px;
+    margin-left: 130px;
+    font-size: 23px;
 }
 
 .bmw {
     text-shadow:  4px 5px 4px yellow;
     margin-top: 15px;
+    font-size: 23px;
 
 }        
 
@@ -308,15 +317,18 @@ header nav ul li {
 
 .main1 {
     width: 100%;
-    height: 3000px;
-    background-image: url(../tp-1/media/marcas\ de\ autos.jpg);
+    height: 1700px;
+    background-image: url(../tp-1/media/fondo\ racing.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .marcas {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 80px;
-    color:red;
+    color:black;
 }
 
 /* HONDA */
@@ -329,7 +341,7 @@ header nav ul li {
 .hon {
     margin-left: 20px;
     margin-top: 100px;
-    color: red;
+    color: black;
     font-size: 50px;
 
 }
@@ -360,7 +372,7 @@ header nav ul li {
 
 .toyo {
     margin-top: 100PX;
-    color: red;
+    color:black;
     font-size: 50px;
     margin-left: 20px;
 }
@@ -382,7 +394,7 @@ header nav ul li {
 
 .bent {
     margin-top: 100px;
-    color: red;
+    color: black;
     font-size: 50px;
     margin-left: 20px;
 }
