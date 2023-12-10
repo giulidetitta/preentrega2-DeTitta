@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+
+header {
+    flex-direction: column;
+    nav{
+        ul{
+            li{
+                a{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }        
+    } 
+}    
+.main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 150px);
+        grid-template-areas:
+        "area1 area2"
+        "area3 area4"
+        "area5 area6"
+        "area7 area8"
+        "area9"
+    }
+        .hero{
+            height: 1200px;
+            div{
+                h4{
+                    width: 500px;
+                    margin-bottom: 150px;
+                }
+            }
+    }
+.ciento2{
+    .cien{
+        img {
+            width: 200px;
+            height: 150px;
+        }
+    }
+}
+.finish{
+    margin-top: 800px;
+    }
+}
+
